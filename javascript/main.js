@@ -4,7 +4,9 @@ $(document).ready(function(){
   $('.slider-offer-left').slick({
     arrows: false,
     dots: true,
-    asNavFor:".slider-offer-img"
+    asNavFor:".slider-offer-img",
+    autoplay:true,
+    autoplaySpeed:4000,
   });
 
   $('.slider-offer-img').slick({
